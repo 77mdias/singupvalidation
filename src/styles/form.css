@@ -1,0 +1,69 @@
+.dados {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-size: 14pt;
+  width: 100%;
+}
+
+.divForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.divForm label {
+  font-weight: 600;
+  color: rgb(49, 49, 49);
+}
+
+.divForm div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 18pt;
+  align-items: center;
+}
+
+.inpForm {
+  border: none;
+  background-color: transparent;
+  font-size: 16pt;
+  width: 100%;
+  padding: 5px 15px;
+  color: rgba(49, 49, 49, 0.603);
+}
+
+.inpForm:focus {
+  outline: none;
+}
+
+.errorMSG {
+  display: none;
+  color: red;
+  font-size: 10pt;
+  letter-spacing: 1px;
+}
+
+.input-div {
+  border-bottom: 1px solid #0e64c3;
+  border-right: 1px solid #0e64c3;
+}
+
+.buttonCad {
+  width: 45%;
+  font-size: 16pt;
+  font-weight: 700;
+  padding: 1.2rem;
+  border-radius: 20px;
+  background-color: #0e64c3;
+  color: azure;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.buttonCad:hover {
+  transform: scale(1.2);
+  transition: all 0.4s;
+}

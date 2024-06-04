@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <form class="form">
+        <h1>Cadastro!</h1>
+        <section class="dados">
+          <div class="divForm">
+            <label for="userName">Nome de Usuário: </label>
+            <div class="input-div">
+              <ion-icon name="person-outline"></ion-icon>
+              <input
+                type="text"
+                name="userName"
+                id="userName"
+                class="inpForm"
+              />
+            </div>
+            <p class="errorMSG">Digite no mínimo 6 caracteres</p>
+          </div>
+
+          <div class="divForm">
+            <label for="userEmail">Endereço de Email: </label>
+            <div class="input-div">
+              <ion-icon name="mail-outline"></ion-icon>
+              <input
+                type="email"
+                name="userEmail"
+                id="userEmail"
+                class="inpForm"
+              />
+            </div>
+            <p class="errorMSG">Digite um email válido!</p>
+          </div>
+
+          <div class="divForm">
+            <label for="password">Senha: </label>
+            <div class="input-div">
+              <ion-icon name="key-outline"></ion-icon>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="inpForm"
+              />
+            </div>
+            <p class="errorMSG">
+              maiúscula, minúscula, simbolo e 8 caracteres mínimo!
+            </p>
+          </div>
+        </section>
+        <button type="submit" class="buttonCad">Cadastrar</button>
+      </form>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
